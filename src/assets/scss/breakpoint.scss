@@ -1,0 +1,11 @@
+$tablet: 768px;
+$mobile: 414px;
+
+@mixin breakpoint ($deviceName){
+  @if $deviceName == tablet {
+      @media (max-width: $tablet) { @content; }
+  }
+  @if $deviceName == mobile {
+      @media (max-width: $mobile) { @content; }
+  }
+}
