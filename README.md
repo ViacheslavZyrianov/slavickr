@@ -1,5 +1,7 @@
 # slavickr
 
+### Demo - http://slavickr.surge.sh/
+
 ## Project setup
 ```
 npm install
