@@ -1,6 +1,6 @@
 # slavickr
 
-## Demo - http://slavickr.surge.sh/
+## Demo - http://slav1ckr.surge.sh/
 
 ## Project setup
 ```
