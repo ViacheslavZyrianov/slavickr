@@ -70,12 +70,11 @@ export default {
           this.imageList = imageData.photos.photo
           this.currentPage = imageData.photos.page
           this.totalPages = imageData.photos.pages
+          this.isLoaderVisible = false
         })
         .catch(err => {
-          throw err
-        })
-        .finally(() => {
           this.isLoaderVisible = false
+          throw err
         })
     }
   }
